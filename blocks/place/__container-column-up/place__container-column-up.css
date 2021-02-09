@@ -1,5 +1,5 @@
 
-.place__container__column-up{
+.place__container-column-up{
     display: flex;
     flex-direction: column;
     width: 50%;
