@@ -78,6 +78,13 @@
       margin-top: 8px;
       font-size: 10px;
   }
+
+  /* .photo-grid__item {
+    min-width: 350px;
+    object-fit: cover;
+    object-position: center;
+  }    */
+
   .place__container {
     flex-direction: column;
   }
@@ -109,7 +116,7 @@
     font-size: 32px;
   }
 
-  .photo__grid {
+  .photo-grid {
     width: 100%;
   }
 
@@ -134,5 +141,14 @@
   
 }
 
+@media screen and (max-width: 513px) {
+
+  .photo-grid__item {
+    min-width: 350px;
+    object-fit: cover;
+    object-position: center;
+  }   
 
 
+
+}
