@@ -6,3 +6,5 @@
 * Flex
 
 Cайт про путешествия по России, который удобно смотреть на разных устройствах.
+
+https://mohnapne.github.io/russian-travel/index.html ссылка на сайт
