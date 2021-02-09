@@ -82,11 +82,11 @@
     flex-direction: column;
   }
 
-  .place__container_column-up {
+  .place__container__column-up {
     width: 100%;
   }
 
-  .place__container_column-below {
+  .place__container__column-below {
     width: 100%;
   }
 
@@ -94,7 +94,7 @@
     padding-left: 0;
   }  
 
-  .place__website_url {
+  .place__website__url {
     margin-top: 32px;
     padding-left: 0;
   }

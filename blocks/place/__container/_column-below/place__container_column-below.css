@@ -1,4 +1,4 @@
-.place__container_column-below{
+.place__container__column-below{
     display: flex;
     flex-direction: column;
     width: 50%;
