@@ -1,6 +1,8 @@
 .place__paragraph {
     padding-left: 40px;
     font-size: 18px;
+    line-height: 163%;
+    font-weight: normal;
     margin-top: 0;
     margin-bottom: 26px;
 }
@@ -8,3 +10,12 @@
 .place__paragraph:last-child {
     margin-bottom: 0;
 }
+
+@media screen and (max-width: 760px) {
+
+    .place__paragraph {
+      padding-top: 32px;
+      padding-left: 0;
+      margin-bottom: 0;
+    }
+}  

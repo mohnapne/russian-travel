@@ -1,6 +1,16 @@
 .place__website-url {
     font-size: 12px;
     margin-bottom: 12px;
+    line-height: 170%;
+    font-weight: normal;
     padding-left: 40px;
     margin-top: 0;
 }
+
+@media screen and (max-width: 760px) {
+
+    .place__website-url {
+      margin-top: 32px;
+      padding-left: 0;
+    }
+}  

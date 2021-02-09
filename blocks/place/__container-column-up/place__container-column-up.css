@@ -5,3 +5,10 @@
     width: 50%;
     justify-content: flex-end;
 }
+
+@media screen and (max-width: 760px) {
+
+    .place__container-column-up {
+      width: 100%;
+    }
+}

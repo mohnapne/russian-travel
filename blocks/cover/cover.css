@@ -2,50 +2,10 @@
     width: 90%;
     margin: auto;
     position: relative;
-    
-    /* margin: auto;
-    background-image: url(../../images/__backgroundelektrichki.png);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 65%;
-    background-size: cover;
-    background-position: center; */
 }
 
 
 
 
-.cover__background {
-    width: 100%;
-    object-position: center;
-    object-fit: cover;
-    filter: brightness(75%);
-    transition: all .3s ease-in-out;
-}
-
-.cover:hover .cover__background {
-    filter: brightness(50%);
-}
 
 
-
-/* .cover__background:hover {
-    filter: brightness(25%);
-} */
-
-.cover__titles {
-    margin: auto;
-    height: 300px;
-    width: 100%;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}

@@ -3,3 +3,13 @@
     object-fit: cover;
     object-position: center;
 }
+
+@media screen and (max-width: 513px) {
+
+    .photo-grid__item {
+      min-width: 350px;
+      object-fit: cover;
+      object-position: center;
+    }   
+  
+}
