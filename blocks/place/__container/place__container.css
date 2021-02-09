@@ -1,0 +1,11 @@
+.place__container{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 48px;
+    /* margin-bottom: 80px; */
+}
+
+.place__container:last-child {
+    padding-bottom: 0;
+    
+}

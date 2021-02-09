@@ -1,0 +1,14 @@
+
+.header__lang-link {
+    display: block;
+    font-size: 24px;
+    margin-left: 18px;
+    align-self: center;
+    text-decoration: none;
+    color: white;
+    transition: opacity 1s ease-out;
+}
+
+.header__lang-link:hover {
+opacity: 50%;
+}

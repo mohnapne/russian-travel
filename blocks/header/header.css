@@ -1,0 +1,12 @@
+.header {
+    height: 52px;
+    width: 90%;
+    padding-top: 28px;
+    margin: auto;
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    align-content: center;
+    flex-direction: row;
+  }
+  

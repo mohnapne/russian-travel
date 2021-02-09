@@ -1,0 +1,12 @@
+.footer {
+    min-height: 134px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: start;
+    flex-direction: row;
+    padding-bottom: 24px;
+    border-bottom: 0;
+    position: relative;
+}
