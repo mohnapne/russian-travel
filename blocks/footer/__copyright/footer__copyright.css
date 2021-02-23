@@ -1,7 +1,8 @@
 .footer__copyright {
     font-size: 14px;
-    position: absolute;
-    right: 1;
+    /* position: absolute; */
+    margin-left: auto;
+    justify-self: flex-end;
     margin-top: 0;
     margin-bottom: 0;
     padding-bottom: 0;
@@ -11,7 +12,7 @@
 @media screen and (max-width: 760px) {
 
     .footer__copyright {
-      left: 0;
+      margin-right: auto;
       bottom: 24;
     }
     

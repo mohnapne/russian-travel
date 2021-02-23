@@ -6,17 +6,10 @@
     font-weight: normal;
     margin-left: 18px;
     align-self: center;
-    text-decoration: none;
     box-sizing: content-box;
     color: white;
-    transition: opacity 1s ease-out;
+    text-decoration: none;
 }
-
-.header__lang-link:hover {
-    text-decoration: underline;
-
-}
-
 @media screen and (max-width: 760px) {
 
     .header__lang-link {

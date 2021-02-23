@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -9,7 +10,7 @@
     <div class="page">
         <header class="header">
             <div class="header__logo"></div>
-            <a href="" target="_blank" class="header__lang-link">Ru</a>
+            <a href="" target="_blank" class="header__lang-link header__lang-link_pressed">Ru</a>
             <a href="" target="_blank" class="header__lang-link">En</a>
         </header>
 
@@ -17,7 +18,7 @@
 
             <section class="lead">
                 <h1 class="lead__title">Путешествия по России</h1>
-                <h3 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h3>
+                <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
                 <img class="lead__image" src="images/__image.png" alt="койка в поезде">
                 <p class="lead__caption">ваша полка — верхняя</p>
             </section>
@@ -31,11 +32,11 @@
                     Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 
                     20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
                 <ul class="intro__list">
-                    <li class="intro__list-item">Часовых поясов 11</li>
-                    <li class="intro__list-item">Объектов природного наследия ЮНЕСКО 12</li>
-                    <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО 16</li>
-                    <li class="intro__list-item">Природных заповедников 105</li>
-                    <li class="intro__list-item">Аэропортов 241</li>
+                    <li class="intro__list-item">Часовых поясов <span class="intro__list-item_regular-text">11</span></li>
+                    <li class="intro__list-item">Объектов природного наследия ЮНЕСКО <span class="intro__list-item_regular-text">12</span> </li>
+                    <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО <span class="intro__list-item_regular-text">16</span> </li>
+                    <li class="intro__list-item">Природных заповедников <span class="intro__list-item_regular-text">105</span> </li>
+                    <li class="intro__list-item">Аэропортов <span class="intro__list-item_regular-text">241</span> </li>
                 </ul>
             </section>
 
@@ -184,8 +185,8 @@
                 <img src="images/__backgroundelektrichki.png" alt="электрички" class="cover__background">
                 <div class="cover__titles">
                     <!-- <h2 class="cover__title">До Байкала «на собаках»</h2> -->
-                    <a class="cover__title" target="_blank"  href="https://stampsy.com/na-elektrichkakh-do-baikala">До Байкала «на собаках»</a>
-                    <h4 class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</h4>
+                    <h2><a class="cover__title" target="_blank"  href="https://stampsy.com/na-elektrichkakh-do-baikala">До Байкала «на собаках»</a></h2>
+                    <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
                 </div>
                 
             </section>
@@ -193,16 +194,14 @@
         </main>
 
         <footer class="footer">
-        <a href="https://yandex.ru/maps" target="_blank"  class="footer__link">Карты</a>
-        <a href="https://yandex.ru/pogoda" target="_blank"  class="footer__link">Погода</a>
-        <a href="https://rasp.yandex.ru" target="_blank" class="footer__link">Расписание</a>
-        <a href="https://calendar.yandex.ru" target="_blank" class="footer__link">Календарь</a>
-        <a href="https://travel.yandex.ru" target="_blank" class="footer__link">Путешествия</a>
+        <nav class="footer__nav">
+            <a href="https://yandex.ru/maps" target="_blank"  class="footer__link">Карты</a>
+            <a href="https://yandex.ru/pogoda" target="_blank"  class="footer__link">Погода</a>
+            <a href="https://rasp.yandex.ru" target="_blank" class="footer__link">Расписание</a>
+            <a href="https://calendar.yandex.ru" target="_blank" class="footer__link">Календарь</a>
+            <a href="https://travel.yandex.ru" target="_blank" class="footer__link">Путешествия</a>
+        </nav>
         <p class="footer__copyright">© 2020. Митя Кувалдин</p>
         </footer>
     </div>
-
-
-    
-</body>
 </html>
