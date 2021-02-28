@@ -8,6 +8,7 @@
     max-width: 560px;
     margin-top: 0;
     margin-bottom: 32px;
+    filter: brightness(100%);
 }
 
 @media screen and (max-width: 760px) {
@@ -17,3 +18,7 @@
       line-height: 35px;
     }
 }  
+
+.cover__title:hover {
+  opacity: 100%;
+}

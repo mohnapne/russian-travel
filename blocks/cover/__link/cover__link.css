@@ -1,0 +1,27 @@
+.cover__link {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-image: url("../../../images/__backgroundelektrichki.png");
+    background-size: cover;
+    background-position: center;
+    opacity: 75%;
+    transition: opacity 0.5s ease-out; 
+}
+
+.cover__link:before {
+    background: grey;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.cover__link:hover {
+    opacity: 50%;  
+}
+
+.cover__link:hover .cover__title {
+    opacity: 100%;
+}

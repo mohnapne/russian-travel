@@ -6,6 +6,9 @@
     line-height: 22px;
     font-weight: normal;
     text-align: center;
+    text-decoration: none;
+    color: white;
+    filter: brightness(100%);
 }
 
 @media screen and (max-width: 760px) {
@@ -14,4 +17,8 @@
       font-size: 14px;
       line-height: 16px;
     }
+}
+
+.cover__subtitle:hover {
+  opacity: 100%;
 }

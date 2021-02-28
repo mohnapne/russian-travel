@@ -1,0 +1,9 @@
+.cover__wrapper {
+    display: block;
+    padding-bottom: 66.316%;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.5s ease, opacity .2s ease;
+    text-decoration: none;
+}
+
