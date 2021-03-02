@@ -5,6 +5,11 @@
     font-weight: normal;
     padding-left: 40px;
     display: block;
+    transition: opacity 0.5s ease-out;
+}
+
+.place__website:hover {
+    opacity: 0.8;
 }
 
 

@@ -9,11 +9,16 @@
     box-sizing: content-box;
     color: white;
     text-decoration: none;
+    transition: opacity 0.5s ease-out;
 }
-@media screen and (max-width: 760px) {
 
+.header__lang-link:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 760px) {
     .header__lang-link {
         font-size: 18px;
         line-height: 20px;
-        }    
-    }
+     }    
+}

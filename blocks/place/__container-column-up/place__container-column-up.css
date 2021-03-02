@@ -4,6 +4,7 @@
     flex-direction: column;
     width: 50%;
     justify-content: flex-end;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 760px) {
@@ -12,3 +13,11 @@
       width: 100%;
     }
 }
+
+@media screen and (max-width: 320px) {
+
+  .place__container-column-up {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}  

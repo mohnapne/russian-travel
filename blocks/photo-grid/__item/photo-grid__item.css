@@ -1,15 +1,16 @@
 .photo-grid__item {
     max-width: 100%;
-    object-fit: cover;
     object-position: center;
+    min-width: 100%;
+    min-height: 100%;
+    display: block;
+    object-fit: cover
 }
 
 @media screen and (max-width: 513px) {
 
     .photo-grid__item {
       min-width: 350px;
-      object-fit: cover;
-      object-position: center;
     }   
   
 }
