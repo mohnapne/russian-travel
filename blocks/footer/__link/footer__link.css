@@ -28,9 +28,12 @@
 
     .footer__link {
         padding-top: 32px;
+        font-size: 16px;
+        line-height: 18px;
+        font-weight: normal;
     }
     .footer__link:nth-child(5) {
-    padding-bottom: 86px;
+        padding-bottom: 86px;
     }
 
 }
@@ -38,8 +41,8 @@
 
 @media screen and (max-width: 320px) {
     .footer__link {
-        font-size: 14px;
-        line-height: 14px;
+        font-size: 24px;
+        line-height: 24px;
         font-weight: normal;
     }
 

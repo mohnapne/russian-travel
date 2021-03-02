@@ -11,7 +11,7 @@
   border-bottom: 0;
   position: relative;
 }
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 761px) {
 
     .footer {
       flex-direction: column;

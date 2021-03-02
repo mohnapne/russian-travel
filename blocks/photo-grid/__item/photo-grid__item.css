@@ -7,10 +7,15 @@
     object-fit: cover;
 }
 
-@media screen and (max-width: 513px) {
+@media screen and (max-width: 1024px) {
+  .photo-grid__item {
+    min-height: 225px;
+  }   
+}
 
-    .photo-grid__item {
-      min-width: 350px;
-    }   
-  
+
+@media screen and (max-width: 513px) {
+  .photo-grid__item {
+    min-width: 350px;
+  }   
 }

@@ -1,8 +1,59 @@
 .cover__wrapper {
-    display: block;
+    min-height: 740px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    overflow: hidden;
-    transition: transform 0.5s ease, opacity .2s ease;
-    text-decoration: none;
+    background-image: url("../../../images/__backgroundelektrichki.png");
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    transition: opacity 0.5s ease-out;
+    z-index: 1; 
 }
 
+
+@media screen and (max-width: 1024px) {
+
+    .cover__wrapper {
+        min-height: 640px;
+    }
+    
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .cover__wrapper {
+        min-height: 480px;
+    }
+    
+}
+
+@media screen and (max-width: 390px) {
+
+    .cover__wrapper {
+        min-height: 200px;
+    }
+    
+}
+  
+  
+.cover__wrapper:before {
+    content: '';
+    background: #2a2c2f;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: opacity 0.5s ease-out;
+}
+
+.cover__wrapper:hover:before {
+    opacity: 0.8;
+}

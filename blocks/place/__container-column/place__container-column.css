@@ -1,4 +1,4 @@
-.place__container-column-below{
+.place__container-column {
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -7,17 +7,16 @@
 
 @media screen and (max-width: 760px) {
 
-    .place__container-column-below {
+    .place__container-column {
       width: 100%;
     }
-}  
-
-
+}
 
 @media screen and (max-width: 320px) {
 
-  .place__container-column-below {
+  .place__container-column {
     padding-left: 12px;
     padding-right: 12px;
   }
 }  
+

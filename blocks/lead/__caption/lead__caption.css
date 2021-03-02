@@ -3,6 +3,10 @@
     line-height: 14px;
     font-weight: normal;
     align-self: flex-start;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    text-transform: uppercase;
+    letter-spacing: 0%;
 }
 
 @media screen and (max-width: 760px) {
@@ -13,3 +17,4 @@
         margin-top: 8px;
     }
 }  
+
