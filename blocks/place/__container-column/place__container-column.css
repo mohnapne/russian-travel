@@ -6,14 +6,12 @@
 }
 
 @media screen and (max-width: 760px) {
-
     .place__container-column {
       width: 100%;
     }
 }
 
 @media screen and (max-width: 320px) {
-
   .place__container-column {
     padding-left: 12px;
     padding-right: 12px;
