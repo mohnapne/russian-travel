@@ -2,20 +2,28 @@
     max-width: 100%;
     object-position: center;
     min-width: 100%;
-    min-height: 100%;
+    min-height: 213px;
     display: block;
     object-fit: cover;
 }
 
-@media screen and (max-width: 1024px) {
+
+@media screen and (max-width: 1275px) {
   .photo-grid__item {
     min-height: 225px;
   }   
 }
 
 
-@media screen and (max-width: 513px) {
+@media screen and (max-width: 1020px) {
   .photo-grid__item {
-    min-width: 350px;
+    min-height: 264px;
   }   
 }
+
+@media screen and (max-width: 765px) {
+  .photo-grid__item {
+    min-height: 216px;
+  }   
+}
+
