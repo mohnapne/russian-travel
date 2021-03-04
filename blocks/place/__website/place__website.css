@@ -1,5 +1,5 @@
 .place__website {
-    color:#fff;
+    color: #fff;
     font-size: 18px;
     line-height: 22px;
     font-weight: normal;
@@ -12,10 +12,8 @@
     opacity: 0.8;
 }
 
-
 @media screen and (max-width: 760px) {
-
     .place__website {
-      padding-left: 0;
-    }  
-}  
+        padding-left: 0;
+    }
+}

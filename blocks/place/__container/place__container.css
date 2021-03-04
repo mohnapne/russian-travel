@@ -1,4 +1,4 @@
-.place__container{
+.place__container {
     display: flex;
     flex-direction: row;
     padding-bottom: 48px;
@@ -7,19 +7,13 @@
 
 .place__container:last-child {
     padding-bottom: 0;
-    
 }
-
 
 @media screen and (max-width: 760px) {
-
     .place__container {
-      flex-direction: column;
+        flex-direction: column;
     }
 }
-
-
-   
 
 
 /* @media screen and (max-width: 320px) {
