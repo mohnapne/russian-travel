@@ -15,12 +15,10 @@
         padding-right: 0;
         width: 93%;
     }
-}  
+}
 
 @media screen and (max-width: 320px) {
     .places {
-        padding-left: 0;
-        padding-right: 0;
         width: 100%;
     }
-}  
+}

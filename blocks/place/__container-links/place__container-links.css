@@ -1,19 +1,19 @@
-.place__container-column {
+.place__container-links {
     display: flex;
     flex-direction: column;
     width: 50%;
-    justify-self: end;
+    justify-content: flex-end;
     box-sizing: border-box;
 }
 
 @media screen and (max-width: 760px) {
-    .place__container-column {
+    .place__container-links {
         width: 100%;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .place__container-column {
+    .place__container-links {
         padding-left: 12px;
         padding-right: 12px;
     }
